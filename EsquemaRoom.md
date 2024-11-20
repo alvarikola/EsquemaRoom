@@ -6,9 +6,9 @@
 - Proporciona una capa de abstracción sobre SQLite.
 
 ## Dependencias
-    implementation (libs.androidx.room.runtime)
-    ksp (libs.androidx.room.compiler.v252)
-    implementation (libs.androidx.room.ktx)
+    implementation("androidx.room:room-runtime:2.6.1")
+    ksp("androidx.room:room-compiler:2.6.1")
+    implementation("androidx.room:room-ktx:2.6.1")
 
 ## Como usar Room
 ### Creación de la Entidad (Entity) 
